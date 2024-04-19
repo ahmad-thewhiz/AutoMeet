@@ -1,0 +1,7 @@
+{
+    "num_attendees": 3,
+    "attendees": ["Ahmad", "Manideep", "Sharayu"],
+    "agenda": "Today's daily standup will start with attendees sharing their progress and receiving new tasks assignments. Rules: 1. Attendees should turn on their microphones only when their name is called to share updates. 2. Once an attendee finishes speaking, they should promptly turn off their microphones.",
+    "previous_tasks": "1. Ahmad was tasked with completing the endpoints for the FastAPI application for the meeting minutes application. \n\n 2. Manideep was assigned to work on LLM-based applications for image generation. \n\n 3. Sharayu was asked to explore LangChain; she needs to be assigned a new task.",
+    "next_tasks": "1. If Ahmad has completed the FastAPI application, he should be assigned the task of developing a deep learning model for skin cancer detection using the ISIC 2019 dataset. \n\n 2. If Manideep has completed his tasks, he should explore the concepts of Next.js. \n\n 3. If Sharayu has explored LangChain, she should be assigned the task of creating a conversation chatbot using LangChain and OpenAI's GPT-4."
+}

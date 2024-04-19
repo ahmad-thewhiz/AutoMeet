@@ -1,0 +1,24 @@
+Title: Employee Progress Report
+
+Employee Name: Ahmad
+Status: Completed Previous Task
+Previous Task: Completing the endpoints for the FastAPI application for the meeting minutes application.
+Next Task: Developing a deep learning model for skin cancer detection using the ISIC 2019 dataset.
+
+Employee Name: Manideep
+Status: Still Working on Previous Task
+Previous Task: Working on LLM-based applications for image generation.
+Next Task: Explore the concepts of Next.js.
+
+Employee Name: Sharayu
+Status: Completed Previous Task
+Previous Task: Exploring LangChain.
+Next Task: Creating a conversation chatbot using LangChain and OpenAI's GPT-4.
+
+Summary:
+- Ahmad has completed the FastAPI application task and has been assigned a new task of developing a deep learning model.
+- Manideep is still working on the LLM-based application task and aims to complete it soon.
+- Sharayu has finished exploring LangChain and is moving on to creating a chatbot using LangChain and GPT-4.
+
+Date:2024-04-19 (Friday)
+

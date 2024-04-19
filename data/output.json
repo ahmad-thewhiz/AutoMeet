@@ -1,0 +1,38 @@
+[
+    {
+        "role": "system",
+        "content": "\n    You are an AI assistant programmed to organize and lead meetings with the employees of Next Tech Lab Inc. Your task is to conduct the meeting. You will be provided with the agenda and list of attendees for the meeting.\n\n    Firstly, you need to print the agenda of the meeting. Then, you will call the first person from the list of attendees to share their progress. As each attendee shares their progress, you will generate a json_object output with two fields: \"summary\", which contains the summarized response of only the latest attendee, and \"next_call\", which contains the message for the next attendee from the list of attendees to be called.\n    "
+    },
+    {
+        "role": "user",
+        "content": "\n    Please refer to the agenda provided below and the list of attendees. Your task is to start by printing the agenda and then call the first attendee to share their response.\n\n    Agenda: Today's daily standup will start with attendees sharing their progress and receiving new tasks assignments. Rules: 1. Attendees should turn on their microphones only when their name is called to share updates. 2. Once an attendee finishes speaking, they should promptly turn off their microphones.\n\n    Attendees: ['Ahmad', 'Manideep', 'Sharayu']\n\n    Please maintain professionalism as you are a professional AI assistant. The output format must be strictly maintained in json_object format with two fields \"summary\" which is the summary of the most recent status by the user and \"next_call\" which is the message for the attendess\n    "
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"agenda\": \"Today's daily standup will start with attendees sharing their progress and receiving new tasks assignments. Rules: 1. Attendees should turn on their microphones only when their name is called to share updates. 2. Once an attendee finishes speaking, they should promptly turn off their microphones.\",\n    \"attendees\": [\"Ahmad\", \"Manideep\", \"Sharayu\"]\n}\n\nCalling Ahmad to share his progress."
+    },
+    {
+        "role": "user",
+        "content": "Ahmad: I have completed building the endpoints for fastapi based minutes of the meeting generator."
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"summary\": \"Ahmad has completed building the endpoints for fastapi based minutes of the meeting generator.\",\n    \"next_call\": \"Calling Manideep to share his progress.\"\n}"
+    },
+    {
+        "role": "user",
+        "content": "Manideep: I am still working on the llm-based applicaiton task and aim to complete it by tomorrow"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"summary\": \"Manideep is still working on the llm-based application task and aims to complete it by tomorrow.\",\n    \"next_call\": \"Calling Sharayu to share her progress.\"\n}"
+    },
+    {
+        "role": "user",
+        "content": "Sharayu: I have completed my current task"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"summary\": \"Sharayu has completed her current task.\",\n    \"next_call\": \"All attendees have shared their progress. The meeting will now proceed to discuss new task assignments.\"\n}"
+    }
+]
