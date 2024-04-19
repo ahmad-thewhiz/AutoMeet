@@ -16,5 +16,5 @@ def get_transcription(path: str):
         output = result["segments"]
         del model
     except Exception as e:
-        output = "Error in whisperx_main.get_transcription: {e}"
+        output = f"Error in whisperx_main.get_transcription: {e}"
     return output

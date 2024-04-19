@@ -1,7 +1,7 @@
 [
     {
         "role": "system",
-        "content": "\n    You are an AI assistant programmed to organize and lead meetings with the employees of Next Tech Lab Inc. Your task is to conduct the meeting. You will be provided with the agenda and list of attendees for the meeting.\n\n    Firstly, you need to print the agenda of the meeting. Then, you will call the first person from the list of attendees to share their progress. As each attendee shares their progress, you will generate a json_object output with two fields: \"summary\", which contains the summarized response of only the latest attendee, and \"next_call\", which contains the message for the next attendee from the list of attendees to be called.\n    "
+        "content": "\n    As an AI assistant tasked with orchestrating and facilitating company meetings, your primary objective is to efficiently manage the proceedings. You will receive the meeting agenda and a roster of attendees.\n\n    Your initial task is to display the agenda for the meeting. Subsequently, you will commence by inviting the first attendee on the list to provide their progress update. After each attendee's update, you are required to generate a JSON object with two key fields:\n\n    1. \"summary\": This field encapsulates the latest attendee's progress summary. It includes any newly allocated tasks based on the provided next_tasks. If the attendee has completed the previous task, assign them a new task; otherwise, prompt them to continue their current task. Ensure all task-related information is succinctly summarized here.\n\n    2. \"next_call\": This field specifies the message intended for the subsequent attendee to be called from the list. \n\n    Your role is to streamline the meeting process, ensuring clarity and efficiency in communication while managing task allocation seamlessly.\n    "
     },
     {
         "role": "user",
@@ -9,30 +9,30 @@
     },
     {
         "role": "assistant",
-        "content": "{\n    \"agenda\": \"Today's daily standup will start with attendees sharing their progress and receiving new tasks assignments. Rules: 1. Attendees should turn on their microphones only when their name is called to share updates. 2. Once an attendee finishes speaking, they should promptly turn off their microphones.\",\n    \"attendees\": [\"Ahmad\", \"Manideep\", \"Sharayu\"]\n}\n\nCalling Ahmad to share his progress."
+        "content": "```json\n{\n    \"agenda\": \"Today's daily standup will start with attendees sharing their progress and receiving new task assignments. Rules: 1. Attendees should turn on their microphones only when their name is called to share updates. 2. Once an attendee finishes speaking, they should promptly turn off their microphones.\",\n    \"attendees\": [\"Ahmad\", \"Manideep\", \"Sharayu\"]\n}\n```"
     },
     {
         "role": "user",
-        "content": "Ahmad: I have completed building the endpoints for fastapi based minutes of the meeting generator."
+        "content": "The stale smell of old beer lingers. It takes heat to bring out the odor. A cold dip restores health and zest. A salt pickle tastes fine with ham. Tacos al pastor are my favorite. A zestful food is the hot cross bun.\n"
     },
     {
         "role": "assistant",
-        "content": "{\n    \"summary\": \"Ahmad has completed building the endpoints for fastapi based minutes of the meeting generator.\",\n    \"next_call\": \"Calling Manideep to share his progress.\"\n}"
+        "content": "I appreciate your input. Let's proceed with the meeting agenda and attendees. \n\nShall we start by inviting the first attendee, Ahmad, to share their progress update?"
     },
     {
         "role": "user",
-        "content": "Manideep: I am still working on the llm-based applicaiton task and aim to complete it by tomorrow"
+        "content": "The stale smell of old beer lingers. It takes heat to bring out the odor. A cold dip restores health and zest. A salt pickle tastes fine with ham. Tacos al pastor are my favorite. A zestful food is the hot cross bun.\n"
     },
     {
         "role": "assistant",
-        "content": "{\n    \"summary\": \"Manideep is still working on the llm-based application task and aims to complete it by tomorrow.\",\n    \"next_call\": \"Calling Sharayu to share her progress.\"\n}"
+        "content": "```json\n{\n    \"summary\": \"Ahmad has shared a unique perspective on various food items. No specific progress update provided.\",\n    \"next_call\": \"Next, let's call Manideep to provide their progress update.\"\n}\n```"
     },
     {
         "role": "user",
-        "content": "Sharayu: I have completed my current task"
+        "content": "The stale smell of old beer lingers. It takes heat to bring out the odor. A cold dip restores health and zest. A salt pickle tastes fine with ham. Tacos al pastor are my favorite. A zestful food is the hot cross bun.\n"
     },
     {
         "role": "assistant",
-        "content": "{\n    \"summary\": \"Sharayu has completed her current task.\",\n    \"next_call\": \"All attendees have shared their progress. The meeting will now proceed to discuss new task assignments.\"\n}"
+        "content": "```json\n{\n    \"summary\": \"Manideep has not provided a progress update, but shared thoughts on different food items.\",\n    \"next_call\": \"Next, let's call Sharayu to provide their progress update.\"\n}\n```"
     }
 ]
