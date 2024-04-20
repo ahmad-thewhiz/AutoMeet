@@ -1,7 +1,7 @@
-from tts_module.tts_main import get_audio
+# from tts_module.tts_main import get_audio
 from model_module.openai_main import get_openai_response, get_openai_json_response, generate_report
-from whisperx_module.whisperx_main import get_transcription
-from model_module.ollama_main import get_response
+# from whisperx_module.whisperx_main import get_transcription
+# from model_module.ollama_main import get_response
 from whisperx_module.whisper import get_whisper_transcription
 import os
 import json
@@ -141,3 +141,5 @@ def main(data_dir: str):
     report = generate_report(previous_tasks=previous_tasks, current_status=current_status, next_tasks=next_tasks)
     report += Date
     create_text_file(file_path=report_path, content=report)
+
+main('data/')

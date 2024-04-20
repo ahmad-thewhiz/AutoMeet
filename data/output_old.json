@@ -9,30 +9,30 @@
     },
     {
         "role": "assistant",
-        "content": "```json\n{\n    \"agenda\": \"Today's daily standup will start with attendees sharing their progress and receiving new task assignments. Rules: 1. Attendees should turn on their microphones only when their name is called to share updates. 2. Once an attendee finishes speaking, they should promptly turn off their microphones.\",\n    \"attendees\": [\"Ahmad\", \"Manideep\", \"Sharayu\"]\n}\n```"
+        "content": "```json\n{\n    \"agenda\": \"Today's daily standup will start with attendees sharing their progress and receiving new tasks assignments. Rules: 1. Attendees should turn on their microphones only when their name is called to share updates. 2. Once an attendee finishes speaking, they should promptly turn off their microphones.\",\n    \"attendees\": [\"Ahmad\", \"Manideep\", \"Sharayu\"]\n}\n```"
     },
     {
         "role": "user",
-        "content": "The stale smell of old beer lingers. It takes heat to bring out the odor. A cold dip restores health and zest. A salt pickle tastes fine with ham. Tacos al pastor are my favorite. A zestful food is the hot cross bun.\n"
+        "content": "I have completed my task of creating endpoints of the fastAPI application for minutes of the meeting generation application.\n"
     },
     {
         "role": "assistant",
-        "content": "I appreciate your input. Let's proceed with the meeting agenda and attendees. \n\nShall we start by inviting the first attendee, Ahmad, to share their progress update?"
+        "content": "```json\n{\n    \"summary\": \"Ahmad has completed the task of creating endpoints for the FastAPI application for the minutes of the meeting generation application. Great job, Ahmad! Your new task is to start working on the frontend design mockups.\",\n    \"next_call\": \"Manideep, please provide your progress update.\"\n}\n```"
     },
     {
         "role": "user",
-        "content": "The stale smell of old beer lingers. It takes heat to bring out the odor. A cold dip restores health and zest. A salt pickle tastes fine with ham. Tacos al pastor are my favorite. A zestful food is the hot cross bun.\n"
+        "content": "I have completed my task for LLM based applications for image generation.\n"
     },
     {
         "role": "assistant",
-        "content": "```json\n{\n    \"summary\": \"Ahmad has shared a unique perspective on various food items. No specific progress update provided.\",\n    \"next_call\": \"Next, let's call Manideep to provide their progress update.\"\n}\n```"
+        "content": "```json\n{\n    \"summary\": \"Manideep has completed the task for LLM based applications for image generation. Well done! Your new task is to start implementing the image generation functionality.\",\n    \"next_call\": \"Sharayu, it's your turn to share your progress.\"\n}\n```"
     },
     {
         "role": "user",
-        "content": "The stale smell of old beer lingers. It takes heat to bring out the odor. A cold dip restores health and zest. A salt pickle tastes fine with ham. Tacos al pastor are my favorite. A zestful food is the hot cross bun.\n"
+        "content": "Sure, are you? I am working on my task and exploring Lancashire.\n"
     },
     {
         "role": "assistant",
-        "content": "```json\n{\n    \"summary\": \"Manideep has not provided a progress update, but shared thoughts on different food items.\",\n    \"next_call\": \"Next, let's call Sharayu to provide their progress update.\"\n}\n```"
+        "content": "```json\n{\n    \"summary\": \"Sharayu is currently working on exploring Lancashire as part of the assigned task. Keep it up, Sharayu! Once you're done exploring, your next task is to research and provide a brief report on the local culture and attractions.\",\n    \"next_call\": \"\"\n}\n```"
     }
 ]

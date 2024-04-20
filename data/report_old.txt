@@ -1,0 +1,23 @@
+Title: Employee Progress Tracking Report
+
+Employee Name: Ahmad
+Status: Completed previous task
+Previous Task: Completing the endpoints for the FastAPI application for the meeting minutes application
+Next Task: Developing a deep learning model for skin cancer detection using the ISIC 2019 dataset.
+
+Employee Name: Manideep
+Status: Completed previous task
+Previous Task: Working on LLM-based applications for image generation
+Next Task: Exploring the concepts of Next.js.
+
+Employee Name: Sharayu
+Status: Still working on the previous task
+Previous Task: Exploring LangChain
+Next Task: To be assigned the task of creating a conversation chatbot using LangChain and OpenAI's GPT-4.
+
+Summary: Ahmad has successfully completed the endpoints for the FastAPI application and has been assigned a new task of developing a deep learning model for skin cancer detection. Manideep has finished working on LLM-based applications and will now explore Next.js. Sharayu is currently exploring LangChain and is awaiting her new task assignment related to creating a conversation chatbot.
+
+Please ensure that each employee's progress is monitored regularly to maintain project efficiency and timely completion of tasks.
+
+Date: 2024-04-20 (Saturday)
+
