@@ -26,7 +26,8 @@ AutoMeet utilizes a conversational interface, acting as a virtual assistant for 
 
 - **Improved Productivity**: With AutoMeet's progress tracking capabilities, organizations can identify bottlenecks, address issues promptly, and optimize workflow processes, leading to improved overall productivity.
 
-- **Enhanced Communication**: AutoMeet facilitates clear and efficient communication among team members by providing a structured platform for sharing updates and insights.
+- **Employee progress tracking**: AutoMeet facilitates clear track of the employees's tasks and their developments.
+- **Automated email** : Automeet automatically sends feedback and report emails to the employees.
 
 ## Conclusion
 
