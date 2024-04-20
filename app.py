@@ -6,6 +6,8 @@ from whisperx_module.whisper import get_whisper_transcription
 import os
 import json
 from datetime import datetime
+from email_module import send_email
+
 def load_json_file_from_path(dir_path, file_name):
 
     file_path = os.path.join(dir_path, file_name)
@@ -142,4 +144,9 @@ def main(data_dir: str):
     report += Date
     create_text_file(file_path=report_path, content=report)
 
+<<<<<<< HEAD
 main('data/')
+=======
+    send_email()
+
+>>>>>>> a8ee185cc400aa7c74b8ef4bcc22da45b893143e
