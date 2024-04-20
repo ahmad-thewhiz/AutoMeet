@@ -144,9 +144,6 @@ def main(data_dir: str):
     report += Date
     create_text_file(file_path=report_path, content=report)
 
-<<<<<<< HEAD
-main('data/')
-=======
     send_email()
 
->>>>>>> a8ee185cc400aa7c74b8ef4bcc22da45b893143e
+main("data/")
